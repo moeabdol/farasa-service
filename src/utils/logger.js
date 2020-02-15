@@ -22,7 +22,7 @@ const logger = createLogger({
     new transports.File({
       maxSize: 5120000,
       maxFiles: 5,
-      filename: `${__dirname}/../logs/logs`,
+      filename: `${__dirname}/../../logs/logs`,
     }),
   ],
 });
